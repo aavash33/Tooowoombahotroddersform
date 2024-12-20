@@ -1,0 +1,858 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container1{
+   
+   border: 10px;
+}
+
+/* Heading Section */
+#head1{
+    color: rgba(255, 170, 0, 0.833);
+    text-align: center;
+    overflow: hidden;
+}
+
+#head2{
+    text-align: center; 
+    overflow: hidden;
+}
+#head3{
+    text-align: center;
+  overflow: hidden;
+}
+#head4{
+    text-align: center; 
+    overflow: hidden;
+}
+
+/* Image section */
+
+#img1{
+   position: absolute;
+   top: 2%;
+   left: 10%;
+    height: 15vh;
+    overflow: hidden;
+}
+
+/* Styling Container 2 */
+.container2  {
+    border: 2px solid black; 
+    padding: 40px;          
+    border-radius: 5px;     
+    background-color: #f9f9f9; 
+    display: inline-block;  
+    margin: 0;             
+    font-weight: bold;     
+    top: 2%;
+    right: 17%;
+    position: absolute;
+    overflow: hidden;
+}
+#p1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+/* Styling for p2 to position it at the bottom of container2 */
+#p2 {
+    position: absolute; 
+    left: 0;           
+    bottom: 0;          
+    margin: 5px;        
+    font-size: 0.9em;   
+}
+
+/* Aligning heading 4 */
+#head5{
+    position: absolute;
+    margin-left: 10%;
+     
+}
+
+/* Desigining the table  */
+.table1{
+    margin-left: 10%;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    vertical-align: middle;
+}
+
+input {
+    width: 100%;
+    height: 100%; 
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    font-size: 14px; 
+}
+
+/* Styling the second part  */
+.head6{
+    margin-left: 20%;
+}
+
+
+#head7{
+    margin-left: 10%;
+}
+
+/* Styling part 2 table 2  */
+.table2{
+    margin-left: 10%;
+    width: 70%;
+    border-collapse: collapse;
+    overflow: hidden;
+   
+}
+
+
+#td1, #td2, #td3, #td4, #td5, #td6 {
+    padding: 8px;             
+    text-align: center;         
+    max-width: 100px;           
+    box-sizing: border-box;    
+}
+
+
+
+
+ /* STYLING TABLE 3 */
+ .table3{
+    margin-left: 10%;
+    width: 70%;
+    border-collapse: collapse;
+    overflow: hidden;
+   
+}
+
+#head8{
+    margin-left: 15%;
+}
+
+#pre1{
+    
+    white-space: pre-wrap; 
+    word-wrap: normal;
+    font-size: .98em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#p22{
+    margin-left: 10%;
+    width: 10%;
+}
+
+#clear-signature{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 9px;
+    transition-duration: 0.4s;
+
+}
+
+#signature-pad{
+    width:400; 
+    height:100;
+    border: 1px solid black;
+}
+
+/* STYLING TABLE 4 */
+#head9{
+    margin-left: 10%;
+}
+
+.table4{
+    margin-left: 10%;
+    width: 70%;
+    border-collapse: collapse;
+    overflow: hidden;
+   
+}
+
+#head10{
+    margin-left: 10%;
+}
+
+#p3{
+    margin-left: 10%;
+}
+
+
+
+/* STYLING TABLE 5 */
+
+.table5{
+    margin-left: 10%;
+    width: 70%;
+    border-collapse: collapse;
+    overflow: hidden;
+   
+}
+
+#pre4{
+
+font-weight: bold;
+}
+ 
+#pre5{
+
+    font-weight: bold;
+    }
+
+    #pre6{
+
+        font-weight: bold;
+        }
+
+        #pre7{
+
+            font-weight: bold;
+            }
+
+#img2{
+    position: absolute;
+    
+    margin-left: 40%;
+     height: 20vh;
+     overflow: hidden;
+ }
+
+ .ouse{
+  
+    margin-left: 10%;
+    width: 50%;
+}
+
+
+
+.lastpre{
+    background-color: black;
+    margin-left: 10%;
+    color: white;
+    margin-right: 10%;
+    text-align: center;
+    display: block;
+}
+/* STYLING THE SUBMIT BUTTOn */
+button{
+   margin-left: 80%;
+        background-color: black;
+        color: white;
+        padding: 10px 22px;
+        border-radius: 8px;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+    
+    
+}
+button:hover{
+       
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* media  query for max width of 970 px                */
+
+@media(max-width: 1024px){
+
+    *{
+        
+        margin-left: 0%;
+        padding: 0%;
+        
+       
+    }
+
+.container1{
+    margin-left: 0%;
+    overflow: hidden;
+}
+
+
+.container2{
+    border: 2px solid black; 
+    padding: 30px;          
+    border-radius: 5px;     
+    background-color: #f9f9f9; 
+    display: inline-block; 
+    top: 10%;
+ }
+ #p1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    font-size: 0.5em;
+}
+/* Styling for p2 to position it at the bottom of container2 */
+#p2 {
+    position: absolute; 
+    left: 0;           
+    bottom: 0;          
+    margin: 3px;        
+    font-size: 0.5em;   
+}
+
+ #img1{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+     height: 10vh;
+     overflow: hidden;
+ }
+
+
+.checkboxcontainer2{
+  
+    display: block; 
+    margin-bottom: 20px; 
+
+overflow: hidden;
+
+}
+
+
+.table5{
+    width: 100%; 
+        table-layout: fixed;
+}
+
+.table5 td {
+    display: block; 
+    width: 70%; 
+    overflow: auto;
+}
+
+} 
+
+
+/* Media query after 970 px for desing of the page */
+
+@media(max-width:1024px)   and (max-height:1400px){
+
+    *{
+        
+        margin-left: 0%;
+        padding: 0%;
+        
+       
+    }
+
+.container1{
+    margin-left: 0%;
+    overflow: hidden;
+}
+
+
+.container2{
+    border: 2px solid black; 
+    padding: 30px;          
+    border-radius: 5px;     
+    background-color: #f9f9f9; 
+    display: inline-block; 
+    top:   3%;
+ }
+ #p1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    font-size: 0.5em;
+}
+/* Styling for p2 to position it at the bottom of container2 */
+#p2 {
+    position: absolute; 
+    left: 0;           
+    bottom: 0;          
+    margin: 3px;        
+    font-size: 0.5em;   
+}
+
+ #img1{
+    position: absolute;
+    top:   3%;
+    left: 10%;
+     height: 8vh;
+     max-width: 150px;
+     width: auto;
+     overflow: hidden;
+ }
+
+
+.checkboxcontainer2{
+  
+    display: block; 
+    margin-bottom: 20px; 
+
+overflow: hidden;
+
+}
+
+
+.table5{
+    width: 100%; 
+        table-layout: fixed;
+}
+
+.table5 td {
+    display: block; 
+    width: 70%; 
+    overflow: auto;
+}
+
+} 
+/*@media(max-width:920px)   and (max-height:600px) */
+
+@media(max-width:920px)   and (max-height:600px){
+
+    .container2{
+        border: 2px solid black; 
+        padding: 30px;          
+        border-radius: 5px;     
+        background-color: #f9f9f9; 
+        display: inline-block; 
+        top:   7%;
+     }
+
+}
+
+
+
+@media(max-width:720px)   and (max-height:600px){
+
+    .container2{
+        border: 2px solid black; 
+        padding: 20px;          
+        border-radius: 5px;     
+        background-color: #f9f9f9; 
+        display: inline-block; 
+        top:   7%;
+     }
+
+
+     #img1{
+        position: absolute;
+        top:   10%;
+       
+         height: 8vh;
+         max-width: 250px;
+         width: auto;
+         overflow: hidden;
+     }
+
+}
+
+
+
+
+
+
+
+
+/* Media query after 700 px for desing of the page */
+
+
+@media(max-width: 700px){
+    *{
+        
+        margin-left: 0%;
+        padding: 0%;
+        
+       
+    }
+
+    .container2{
+        border: 2px solid black; 
+        padding: 25px;          
+        border-radius: 5px;     
+        background-color: #f9f9f9; 
+        display: inline-block; 
+        top:   11%;
+     }
+    
+    
+     #img1{
+        position: absolute;
+        top:   10%;
+       
+         height: 7vh;
+         max-width: 250px;
+         width: auto;
+         overflow: hidden;
+     }
+
+
+
+
+.table1{
+    margin-left: 5%;
+    
+    width: 90%;
+}
+
+
+.table2{
+    margin-left: 5%;
+    
+    width: 90%;
+}
+
+
+.table3{
+    margin-left: 5%;
+    
+    width: 90%;
+}
+
+#head8{
+    margin-left: 5%;
+}
+
+#pre1{
+    margin-left: 5%;
+}
+
+
+#p22{
+    margin-left: 5%;
+}
+
+#head9{
+    margin-left: 5%;
+}
+
+.table4{
+    margin-left: 5%;
+    
+    width: 90%;
+}
+
+#head10{
+    margin-left:5% ;
+}
+
+#p3{
+    margin-left: 5%;
+}
+
+.table5{
+    margin-left: 5%;
+    
+    width: 90%;
+}
+
+.toombahotroddersimage{
+    margin-left: 0%;
+}
+
+.ouse{
+    margin-left: 5%;
+}
+
+
+
+
+footer{
+    margin-left: 0%;
+    }
+
+.lastpre{
+    margin-left: 5%;
+    white-space: pre-wrap; 
+    word-wrap: normal;
+}
+}
+
+
+/* Media query for max width of 570 */
+
+@media (max-width: 570px){
+
+
+    *{
+        
+        margin-left: 0%;
+        padding: 0%;
+        
+       
+    }
+
+    .container2{
+        border: 1px solid black; 
+        padding: 20px;          
+        border-radius: 5px;     
+        background-color: #f9f9f9; 
+        display: inline-block; 
+        top:   13%;
+     }
+    
+    
+     #img1{
+        position: absolute;
+        top:   10%;
+       
+         height: 7vh;
+         max-width: 250px;
+         width: auto;
+         overflow: hidden;
+     }
+
+     .table-wrapper{
+        width: 100%;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+     }
+     .table1{
+       
+        margin-left: 0%;
+        
+        width: 100%;
+    }
+    .table1 td {
+        display: block;
+        width: 90%;
+       
+        
+        padding: 5px; 
+        border: .5px solid #ccc;
+    }
+    .table1 th{
+        display: block;
+    }
+    .table2{
+        
+        margin-left: 0%;
+        
+        width: 100%;
+    }
+    
+    
+    .table3{
+       
+        margin-left:0%;
+        
+        width: 100%;
+    }
+    
+    #head8{
+        margin-left: 0%;
+    }
+    
+    #pre1{
+        margin-left: 0%;
+    }
+    
+    
+    #p22{
+        margin-left: 0%;
+    }
+    
+    #head9{
+        margin-left: 0%;
+    }
+    
+    .table4{
+        margin-left: 0%;
+        
+        width: 100%;
+    }
+    
+    #head10{
+        margin-left:0% ;
+    }
+    
+    #p3{
+        margin-left: 100%;
+    }
+    
+    .table5{
+        margin-left: 0%;
+        
+        width: 100%;
+    }
+    
+    .ouse{
+        margin-left: 0%;
+    }
+
+
+}
+
+/* Media query after max width of 470   */
+/* two header images,signature box and the button */
+
+@media (max-width:470px){
+
+
+    *{
+        
+        margin-left: 0%;
+        padding: 0%;
+        
+       
+    }
+
+    .container2{
+        border: 1px solid black; 
+        padding: 20px;          
+        border-radius: 5px;     
+        background-color: #f9f9f9; 
+        display: inline-block; 
+        top:   15%;
+     }
+    
+    
+     #img1{
+        position: absolute;
+        top:   15%;
+       
+         height: 6vh;
+         max-width: 250px;
+         width: auto;
+         overflow: hidden;
+     }
+
+
+    button{
+        margin-left: 10%;
+    }
+
+
+}
+
+
+
+/* media query max width 375 and  height 670 for the header imgs*/
+
+@media (max-width:375px) and (max-height:750px){
+    *{
+        
+        margin-left: 0%;
+        padding: 0%;
+        
+       
+    }
+
+    .container2{
+        border: 1px solid black; 
+        padding: 20px;          
+        border-radius: 5px;     
+        background-color: #f9f9f9; 
+        display: inline-block; 
+        top:   20%;
+     }
+    
+    
+     #img1{
+        position: absolute;
+        top:   20%;
+       
+         height: 6vh;
+         max-width: 250px;
+         width: auto;
+         overflow: hidden;
+     }
+
+
+     .table2 td {
+        width: 90%;
+           
+            
+        padding: 1px; 
+        border: 0.5px solid #ccc;
+    }
+    .table2 th{
+        width: 90%;
+           
+            
+            padding: 1px; 
+            border: 0.5px solid #ccc;
+    }
+    .table2 #td1{
+        padding: 1px; 
+        margin-left: 0%;
+    }
+
+.table3 td {
+    width: 100%;
+       
+        
+    padding: 1px; 
+    border: 0.5px solid #ccc;
+}
+.table3 th{
+    width: 100%;
+       
+        
+        padding: 1px; 
+        border: 0.5px solid #ccc;
+}
+
+
+}
+
+/* media query for table 3 when the max width is 370 */
+
+@media(max-width:368px){
+    .table2 td {
+        width: 90%;
+           
+            
+        padding: 1px; 
+        border: 0.5px solid #ccc;
+    }
+    .table2 th{
+        width: 90%;
+           
+            
+            padding: 1px; 
+            border: 0.5px solid #ccc;
+    }
+    .table2 #td1{
+        padding: 1px; 
+        margin-left: 0%;
+    }
+
+.table3 td {
+    width: 100%;
+       
+        
+    padding: 1px; 
+    border: 0.5px solid #ccc;
+}
+.table3 th{
+    width: 100%;
+       
+        
+        padding: 1px; 
+        border: 0.5px solid #ccc;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
